@@ -1,18 +1,44 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "@popperjs/core": "^2.11.6",
-        "axios": "^1.1.2",
-        "bootstrap": "^5.2.3",
-        "laravel-vite-plugin": "^0.7.2",
-        "sass": "^1.56.1",
-        "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "railway-bootstrap": "^0.0.4"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.3",
+    "laravel-vite-plugin": "^0.7.2",
+    "nodemon": "^2.0.22",
+    "sass": "^1.56.1",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "railway-bootstrap": "^0.0.4",
+    "bootstrap": "^5.2.3",
+    "laravel-vite-plugin": "^0.7.2",
+    "sass": "^1.56.1",
+    "vite": "^4.0.0"
+  },
+  "name": "liga",
+  "description": "Examen Suple",
+  "version": "1.0.0",
+  "main": "npmfile.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feliandre/Liga_Barrial_Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feliandre/Liga_Barrial_Final/issues"
+  },
+  "homepage": "https://github.com/Feliandre/Liga_Barrial_Final#readme"
 }
