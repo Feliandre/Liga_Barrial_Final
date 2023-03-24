@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    {{ $equipo->name ?? "{{ __('Show') Equipo" }}
+    {{ $equipos->name ?? "{{ __('Show') Equipo" }}
 @endsection
 
 @section('content')
@@ -22,19 +22,19 @@
                         
                         <div class="form-group">
                             <strong>Nombre:</strong>
-                            {{ $equipo->nombre }}
+                            {{ $equipos->nombre }}
                         </div>
                         <div class="form-group">
                             <strong>Presidente Equipo Id:</strong>
-                            {{ $equipo->presidente_equipo_id }}
+                            {{ $equipos->presidente_equipo_id }}
                         </div>
                         <div class="form-group">
                             <strong>Logo:</strong>
-                            {{ $equipo->logo }}
+                            {{ $equipos->logo }}
                         </div>
                         <div class="form-group">
                             <strong>Fecha Fundacion:</strong>
-                            {{ $equipo->fecha_fundacion }}
+                            {{ $equipos->fecha_fundacion }}
                         </div>
 
                     </div>

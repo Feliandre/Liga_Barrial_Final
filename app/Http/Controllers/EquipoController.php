@@ -46,6 +46,7 @@ class EquipoController extends Controller
         //request()->validate(Equipo::$rules);
 
         $equipos = Equipo::create($request->all());
+        $equipos->save();
 
         return redirect()->route('equipos.index')
             ->with('success', 'Equipo created successfully.');
@@ -72,7 +73,7 @@ class EquipoController extends Controller
      */
     public function edit($id)
     {
-        $equipos = Equipo::find($id);
+        $equipos = Equipo::findOrFail($id);
 
         return view('equipos.edit', compact('equipos'));
     }
@@ -89,6 +90,7 @@ class EquipoController extends Controller
         //request()->validate(Equipo::$rules);
 
         $equipos->update($request->all());
+        
 
         return redirect()->route('equipos.index')
             ->with('success', 'Equipo updated successfully');
