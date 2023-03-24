@@ -37,6 +37,8 @@
                                         <th>No</th>
                                         
 										<th>Cedula</th>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
 										<th>Equipo Id</th>
 										<th>Edad</th>
 										<th>Fecha Nacimiento</th>
