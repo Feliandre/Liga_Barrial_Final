@@ -2,7 +2,6 @@
   "private": true,
   "scripts": {
     "dev": "npm run development",
-    "prod": "npm run production",
     "start": "node src/app.js"
   },
   "devDependencies": {
