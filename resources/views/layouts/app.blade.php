@@ -12,7 +12,9 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="{{ env('ASSET_URL') }}/bootstrap/css/bootstrap.min.css">
+    <script src="{{ env('ASSET_URL') }}/bootstrap/js/bootstrap.min.js"></script>
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
