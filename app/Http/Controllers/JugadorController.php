@@ -73,7 +73,7 @@ class JugadorController extends Controller
     public function edit($id)
     {
         $jugadors = Jugador::find($id);
-        $jugadors->save();
+        //$jugadors->save();
 
         return view('jugadors.edit', compact('jugadors'));
     }
@@ -90,7 +90,7 @@ class JugadorController extends Controller
         //request()->validate(Jugador::$rules);
 
         $jugadors->update($request->all());
-        $jugadors->save();
+        //$jugadors->save();
 
         return redirect()->route('jugadors.index')
             ->with('success', 'Jugador updated successfully');
