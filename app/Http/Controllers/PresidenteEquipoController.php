@@ -107,4 +107,5 @@ class PresidenteEquipoController extends Controller
         return redirect()->route('presidente_equipos.index')
             ->with('success', 'PresidenteEquipo deleted successfully');
     }
+
 }
