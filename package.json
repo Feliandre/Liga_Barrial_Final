@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon src/app.js",
-    "build": "vite build"
+    "start": "node src/app.js"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",
